@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'alurareceita.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.getenv('NAME'),
-        'USER': os.getenv('USER'),
-        'PASSWORD': os.getenv('PASSWORD'),
-        'HOST': os.getenv('HOST'),
-        'PORT': os.getenv('PORT')
+        'NAME': 'alura_receitas',
+        'USER': 'root',
+        'PASSWORD': 'TaigaSQL22',
+        'HOST': '127.0.0.1',
+        'PORT': '3306'
     }
 }
 
