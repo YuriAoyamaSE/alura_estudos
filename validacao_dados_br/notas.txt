@@ -1,0 +1,9 @@
+regras para CPF:
+https://dicasdeprogramacao.com.br/algoritmo-para-validar-cpf/
+
+pacote para validação de dados BR:
+validate-docbr
+
+
+para o cep, uso da API:
+https://viacep.com.br/
